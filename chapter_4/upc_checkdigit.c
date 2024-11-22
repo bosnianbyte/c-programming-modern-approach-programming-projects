@@ -16,6 +16,6 @@ int main(void)
 	total = 3 * first_sum + second_sum;
 
 	// Prints the check digit
-	printf("Check digit: %d\n", 9 - (total -1) %10);
+	printf("Check digit: %d\n", 9 - (total - 1) %10);
 	return 0;
 }
