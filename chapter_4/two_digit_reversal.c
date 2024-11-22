@@ -8,7 +8,7 @@ int main(void)
 	int number, digit1, digit2;
 
 	// Asks user for 2 digit number
-	printf("Write a 2 digit number; ");
+	printf("Write a 2 digit number: ");
 	scanf("%d", &number);
 
 	// Assigns each digit their own lvalue;
