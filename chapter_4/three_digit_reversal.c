@@ -8,7 +8,7 @@ int main(void)
 	int number, digit1, digit2, digit3;
 
 	// Asks user for 3 digit number
-	printf("Write a 3 digit number; ");
+	printf("Write a 3 digit number: ");
 	scanf("%d", &number);
 
 	// Assigns each digit their own lvalue;
