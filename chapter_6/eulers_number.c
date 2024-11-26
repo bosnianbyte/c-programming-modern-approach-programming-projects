@@ -17,7 +17,7 @@ int main(void)
 
 	// Loop that calculates the sum of e
 	for(i = 1; i <= n; i++) {
-		factorial = 1;
+		factorial = 1.0f;
 		// Nested loop that calculates the denominator value
 		for (j = 1; j <= i; j++) {
 			factorial = factorial * j;
