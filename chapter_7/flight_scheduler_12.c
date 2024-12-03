@@ -17,7 +17,11 @@ int main(void)
 
 	// converts 12-hour time to minutes
 	if (meridiem == 'A') {
+		if (hour == 12) {
+			hour = 0;
+		} else {
 		minutes += hour * 60;
+		}
 	}
 	else {
 		if (hour == 12) {
