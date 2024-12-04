@@ -17,7 +17,8 @@ int main(void)
 
 	// While loop to print each letter of the last name
 	while((ch = getchar()) != '\n') {
-		putchar(ch);
+		if (ch != ' ')
+			putchar(ch);
 	}
 
 	// Prints a comma then the first initial and a period
