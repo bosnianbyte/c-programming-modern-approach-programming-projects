@@ -134,6 +134,7 @@ void analyze_hand(void)
         num_consec++;
     if (num_consec == NUM_CARDS) {
         royal_flush = true;
+        return;
     }
 
     /* check for flush */
