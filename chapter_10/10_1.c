@@ -51,7 +51,7 @@ int main(void)
     }
     if (is_empty())
     {
-        // If the stack is empty then everything matchers
+        // If the stack is empty then everything matches
         printf("Parenthesis/Braces are matching\n");
     } else
     {
