@@ -38,4 +38,5 @@ int main(void)
         else printf(".");
     }
     printf("\n");
+    return 0;
 }
